@@ -7,3 +7,9 @@ def dividir(a, b):
     if b == 0:
         raise ZeroDivisionError("No se puede dividir entre cero.")
     return a / b
+
+def sumar(a,b):
+    return a + b
+
+def restar(a,b):
+    return a - b
